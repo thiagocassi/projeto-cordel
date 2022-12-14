@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, Sans-serif;
+    --fonte2: 'Rubik Gemstones', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+
+    
+}
+
+header > h1 {
+    padding-top:  50px;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 50px;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 2em;
+
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+section.imagem {
+    background-color: rgba(0, 0, 0, 0.644);
+    color: white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.644);
+    
+}
+
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.205);
+    width: 400px;
+    border-radius: 10px;
+    padding-left: 10px;
+    text-shadow: 1px 1px 0px black ;
+}
+
+#img001 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+
+}
+
+#img002 {
+    background-image: url(../imagens/background002.jpg);
+
+}
+
+a {
+
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+
+
+
+footer  {
+    background-color: black;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
